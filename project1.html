@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Voice Denoising AI</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+
+    .project-page {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .project-page h1 {
+      margin-top: 0;
+      font-size: 2em;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+    }
+
+    .project-page img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+
+    .project-page a {
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .project-page a:hover {
+      text-decoration: underline;
+    }
+
+    .back-link {
+      margin-top: 30px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="project-page">
+    <h1>🎧 Voice Denoising AI</h1>
+    <p>
+      This project uses a deep autoencoder neural network to remove background noise from speech. It’s trained on mel-spectrograms of noisy and clean audio pairs.
+    </p>
+
+    <img src="images/project1.png" alt="Voice Denoising Screenshot">
+
+    <h3>🔧 Technologies Used</h3>
+    <ul>
+      <li>Python</li>
+      <li>PyTorch</li>
+      <li>Librosa</li>
+      <li>Matplotlib</li>
+    </ul>
+
+    <h3>📌 Features</h3>
+    <ul>
+      <li>Denoising with MSE loss</li>
+      <li>Custom training loop and spectrogram visualization</li>
+      <li>1-channel mel-spectrogram input/output</li>
+    </ul>
+
+    <p>
+      🔗 <a href="https://github.com/你的帳號/voice-denoise" target="_blank">View source code on GitHub</a>
+    </p>
+
+    <a href="index.html" class="back-link">← Back to homepage</a>
+  </div>
+
+</body>
+</html>
